@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-gray.css">    
+<title>Curriculum</title>
+<script src="https://unpkg.com/feather-icons"></script>
+<style>
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("img/fondo.jpg") no-repeat center center fixed;
+    background-size: cover;
+    filter: invert(100%) grayscale(100%) brightness(40%) ;
+    z-index: -1; /* Para que quede detrás del contenido */
+}
+body{
+  color: white;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-container a {
+  width: 80%;
+}
+
+.w3-theme-l1:hover {
+  background-color: #493a42 !important;
+}
+
+.margin-top-2 {
+  margin-top: 32px;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  width: auto;
+  font-weight: bolder;
+}
+
+.bottom span {
+  color: #ffffff;
+}
+
+.bottom svg {
+  stroke: #ffffff;
+  fill: #ed0000;
+}
+.button-overlay {
+            position: relative;
+            bottom: 10px; /* Posiciona el botón en la parte inferior */
+            left: 50%; /* Centra el botón horizontalmente */
+            transform: translateX(-50%); /* Ajusta el desplazamiento horizontal para que quede centrado */
+            background-color: rgba(0, 0, 0, 0.6); /* Fondo oscuro semi-transparente */
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+@media (min-width: 768px) {
+  .link {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+</style>
+  </head>
+  <body>
+    <!-- Content container -->
+    <div class="container">
+      <div class="bg-image"></div>
+      <!-- Image and name container. Change to your pictue here. -->
+      <div style="text-align: center">
+        <img src="./img/leo.png" class="w3-margin" alt="image" width="150px" height="150px" style="border-radius: 50%;">
+        <p><span class="name w3-padding w3-yellow w3-round" style="font-weight: bolder;">Hola, soy Leonardo Araujo Programador Backend</span></p>
+      </div>
+
+      <div class="links-container">
+        <p style="font-weight: bolder;" class="name w3-padding  w3-round"> Me considero una persona muy agil, proactiva, de muy buenas relaciones interpersonales, con capacidad de facil entendimiento y análisis, dispuesta a aprender, enseñar y a desafiar los retos del dia a dia persona sincera, leal y transparente, con sentido de pertenencia organizada, eficiente y con capacidad para promover el trabajo en equipo.</p>
+      </div>
+        <h4 style="text-align: center; margin-top: 30px;">Mis Proyectos</h4>
+
+    <div class="album-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+        <!-- Image 1 -->
+        <div class="album-item">
+          <h6>Ecomerce</h6>
+
+          <img src="./img/project/ecomerce.png" alt="Foto 1" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/ecomerce.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+
+        <a href="https://github.com/leonardo2322?tab=repositories" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+        <!-- Image 2 -->
+        <div class="album-item">
+          <h6>Web para negocio</h6>
+
+          <img src="./img/project/cuido.png" alt="Foto 2" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/cuido.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://gaboprogramers.github.io/tu_cuido_a_la_mano/"  target="_blank"class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+        <!-- Image 3 -->
+        <div class="album-item">
+          <h6>aplicacion de escritorio</h6>
+
+          <img src="./img/project/escritorio.png" alt="Foto 3" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/escritorio.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://github.com/leonardo2322/Turing-system/blob/main" class="w3-button w3-small w3-round w3-dark w3-border " style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+        <!-- Image 4 -->
+        <div class="album-item">
+          <h6>carrito de compras</h6>
+
+          <img src="./img/project/pagina1.png" alt="Foto 4" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/pagina1.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://leonardo2322.github.io/Palerossi/" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+        <!-- Image 5 -->
+        <div class="album-item">
+          <h6>Estadistica y recetas</h6>
+
+          <img src="./img/project/estadistica.png" alt="Foto 5" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/estadistica.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://github.com/leonardo2322/E-commerce"  target="_blank"class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+        <!-- Image 6 -->
+        <div class="album-item">
+          <h6>Hacking</h6>
+
+          <img src="./img/project/hackin.png" alt="Foto 6" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/hackin.png"  target="_blank"class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://github.com/leonardo2322/breackmyssh" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+
+        <!-- Image 7 -->
+
+        </div>
+        <!-- Image 7 -->
+
+        <div class="album-item">
+          <h6>QR generador</h6>
+
+          <img src="./img/project/URlPage_ZmtiiKf.png" alt="Foto 5" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/URlPage_ZmtiiKf.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://github.com/leonardo2322/Qr-generator"  target="_blank"class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+    
+        <!-- Image 8 -->
+    
+        <div class="album-item">
+          <h6>Rifa</h6>
+          <img src="./img/project/rifa.png" alt="Foto 5" width="120px" height="120px" style="border-radius: 10px;">
+          <div class="button-overlay">
+            <a href="./img/project/rifa.png" target="_blank" class="w3-button w3-small w3-round w3-dark w3-border">Ver</a>
+        </div>
+          <div style="margin-top: 10px;">
+        <a href="https://github.com/leonardo2322/Qr-generator"  target="_blank"class="w3-button w3-small w3-round w3-dark w3-border" style="text-decoration: none;">Ver Proyecto</a>
+      </div>
+        </div>
+    
+      </div>
+
+      
+      
+    </div>
+      <p style="font-weight: bolder;text-align: center;">¡Mira mis enlaces!</p>
+
+      <h4 class="margin-top-2" style="text-align: center;">MIS REDES SOCIALES</h4>
+      <!-- Links section 1. Replace the # inside of the "" with your links. -->
+
+      <div class="links-container">
+        <br>
+        <a href="https://www.instagram.com/leonardomendeznoah?igsh=NTloNGI2NzFweDBq" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Instagram</a>
+        <br>
+        <a href="https://www.tiktok.com/@leonard15_14?_t=ZS-8unIxy44k7z&_r=1" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Tiktok</a>
+        <br>
+        <a href="https://www.youtube.com/@Paper-tech-tips" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Youtube</a>
+        <br>
+      </div>
+
+      <!-- Links section 2. Replace the # inside of the "" with your links. -->
+      <h4 class="margin-top-2" style="text-align: center;">MI EXPERIENCIA</h4>
+      <div class="links-container">
+        <a href="https://www.linkedin.com/in/leonardo-jose-367bb2229" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">LinkedIn</a>
+        <a href="https://github.com/leonardo2322" class="w3-button w3-round-xlarge w3-theme-l1 w3-border link" target="_blank">Github</a>
+      </div>
+
+      <!-- Links section 3. Replace the # inside of the "" with your links. -->
+     
+
+      <!-- Bottom section 3 -->
+      <div class="bottom margin-top-2 w3-padding w3-round">
+          <span>Paper Empresa personal</span>
+      </div>
+
+    </div>
+   
+  </body>  
+</html>
